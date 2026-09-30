@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support – Offline Nonogram</title>
+<meta name="description" content="Help and contact for Offline Nonogram, an offline puzzle game for Android and iOS.">
+<style>
+  :root {
+    --bg: #fbfbf8;
+    --ink: #1c1d21;
+    --muted: #5d606b;
+    --rule: #dcdcd4;
+    --fill: #2f4a7a;
+    --link: #2f4a7a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #17181c;
+      --ink: #e9e9e4;
+      --muted: #a2a4ad;
+      --rule: #34363d;
+      --fill: #8fb0e8;
+      --link: #9dbcf0;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.65 Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+  }
+  main { max-width: 38rem; margin: 0 auto; padding: 3rem 1.25rem 4rem; }
+  .mark {
+    display: grid;
+    grid-template-columns: repeat(5, 10px);
+    gap: 3px;
+    margin-bottom: 1.5rem;
+  }
+  .mark span { width: 10px; height: 10px; border: 1px solid var(--rule); }
+  .mark span.on { background: var(--fill); border-color: var(--fill); }
+  h1 {
+    font: 600 2rem/1.2 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    margin: 0 0 0.35rem;
+    letter-spacing: -0.01em;
+  }
+  .meta { color: var(--muted); margin: 0 0 2.5rem; font-size: 0.95rem; }
+  h2 {
+    font: 600 1.15rem/1.3 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    margin: 2.25rem 0 0.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--rule);
+  }
+  p, ul { margin: 0 0 1rem; }
+  ul { padding-left: 1.25rem; }
+  li { margin-bottom: 0.4rem; }
+  a { color: var(--link); text-underline-offset: 2px; }
+  a:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+  h3 {
+    font: 600 1rem/1.35 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    margin: 1.5rem 0 0.35rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark" aria-hidden="true">
+    <span></span><span class="on"></span><span></span><span class="on"></span><span></span>
+    <span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span>
+    <span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span>
+    <span></span><span class="on"></span><span class="on"></span><span class="on"></span><span></span>
+    <span></span><span></span><span class="on"></span><span></span><span></span>
+  </div>
+
+  <h1>Support</h1>
+  <p class="meta">Offline Nonogram · Android and iOS</p>
+
+  <p>Found a bug, have a question, or want to suggest something? Email <a href="mailto:offlinenonogram@gmail.com">offlinenonogram@gmail.com</a>. Please include your device model and whether you are on Android or iOS. I read every message and usually reply within a few days.</p>
+
+  <h2>Frequently asked questions</h2>
+
+  <h3>Do I need an internet connection?</h3>
+  <p>No. Every puzzle is generated on your device, and the whole game works offline, including the daily puzzle.</p>
+
+  <h3>I bought Remove Ads. How do I get it back on a new device?</h3>
+  <p>Open Settings and tap <strong>Restore Purchases</strong>, signed in to the same Google Play or Apple account you bought it with. Your purchase stays active offline too.</p>
+
+  <h3>Where is my progress saved? Can I move it to another phone?</h3>
+  <p>Progress, stats, streaks and achievements are saved only on your device. There are no accounts, so progress does not transfer between devices, and uninstalling the app deletes it.</p>
+
+  <h3>How do I start over?</h3>
+  <p>Settings → <strong>Reset all data</strong> clears puzzles, stats and your streak. It does not remove a Remove Ads purchase.</p>
+
+  <h3>How do I change my ad privacy choices?</h3>
+  <p>If you are in a region that requires consent, Settings shows <strong>Ad Privacy Choices</strong>, where you can change your answer at any time. On iOS you can also turn off tracking in the system Settings app under Privacy &amp; Security → Tracking.</p>
+
+  <h3>Is every puzzle solvable?</h3>
+  <p>Yes. Every puzzle has exactly one solution, and you can reach it by logic alone, without guessing.</p>
+
+  <h2>Privacy</h2>
+  <p>See the <a href="privacy-policy.html">privacy policy</a> for what the app stores and what the ad and purchase services receive.</p>
+
+  <h2>Contact</h2>
+  <p><a href="mailto:offlinenonogram@gmail.com">offlinenonogram@gmail.com</a></p>
+</main>
+</body>
+</html>
